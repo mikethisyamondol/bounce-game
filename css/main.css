@@ -1,0 +1,84 @@
+.left {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+
+#container {
+    width:600px;
+    height:500px;
+    position: relative;
+    background-color: #F5F5F5;
+    margin-top:20px;
+    margin-bottom: 20px;
+    /*border:0;*/
+    /*padding: 0;*/
+    z-index: 2;
+    display: inline-block;
+    
+}
+ 
+#ball {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: black;
+    position:absolute;
+    left: 45%;
+    top: 84.5%;  
+    border:1px solid #999;
+    z-index: 2;
+}
+
+
+ #square {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    position: absolute;
+    top: 85%;
+    left: -77px;
+    z-index: 1;
+ }
+
+ .right {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+ }
+
+ h1 {
+    margin-left: 250px;
+    margin-top: 20px;
+    color: black;
+    display: none;
+ }
+
+button a {
+    text-decoration: none;
+    color: black;
+ }
+
+ button {
+    margin-left: 270px;
+    display: none;
+ }
+
+
+
+ .youLose{
+    display: block;
+ }
